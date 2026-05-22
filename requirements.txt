@@ -1,0 +1,107 @@
+# Core AI and ML Libraries
+torch>=2.0.0
+transformers>=4.30.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Computer Vision and Image Processing
+opencv-python>=4.8.0
+Pillow>=10.0.0
+pytesseract>=0.3.10
+mediapipe>=0.10.0
+ultralytics>=8.0.0  # For YOLO object detectionDeployment Platform: Desktop Application (Windows/Linux/macOS)
+Platform Details:
+Primary Platform: Windows (based on your current environment)
+Architecture: Cross-platform desktop application
+Runtime: Python 3.8+ with virtual environment
+Interface: Multiple GUI options (Tkinter, PyQt5, Kivy)
+Deployment Architecture:
+Local Desktop Application
+
+Standalone Python application
+Local model inference (no cloud dependency)
+Direct hardware access (camera, microphone)
+Core Technologies:
+
+AI/ML: PyTorch, Transformers, YOLO, MediaPipe
+Vision: OpenCV, Pillow, Tesseract OCR
+Speech: SpeechRecognition, pyttsx3, gTTS
+NLP: spaCy, NLTK, sentence-transformers
+GUI: Tkinter (primary), PyQt5, Kivy (alternatives)
+Optional Web Interface:
+
+Flask/FastAPI for web deployment
+Can be deployed as web service if needed
+Current Deployment Options:
+Standalone Desktop App (Current)
+
+python main.py --gui              # Full GUI
+python main.py --minimalist       # Clean GUI
+python main.py --text-only        # Terminal only
+Web Service (Available)
+
+# Can deploy as web service using Flask/FastAPI
+python -m uvicorn app:app --host 0.0.0.0 --port 8000
+Target Users:
+Accessibility-focused: Users with visual, hearing, or motor impairments
+Educational: Students and educators
+Local deployment: Privacy-conscious users who want local AI processing
+Key Features for Platform:
+Multimodal Input: Speech, text, gestures, camera
+Offline Capable: Works without internet (except for some TTS)
+Accessible Design: Screen reader compatible, keyboard navigation
+Cross-platform: Windows, macOS, Li
+
+# Speech Processing
+SpeechRecognition>=3.10.0
+gTTS>=2.3.0
+pyttsx3>=2.90
+pyaudio>=0.2.11
+librosa>=0.10.0
+
+# Natural Language Processing
+nltk>=3.8.0
+spacy>=3.6.0
+textblob>=0.17.0
+sentence-transformers>=2.2.0
+beautifulsoup4>=4.12.0
+
+# Web and API
+requests>=2.31.0
+flask>=2.3.0
+fastapi>=0.100.0
+uvicorn>=0.22.0
+
+# GUI and Interface
+tkinter  # Built-in with Python
+PyQt5>=5.15.0
+kivy>=2.1.0
+
+# Data Processing
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Utilities
+python-dotenv>=1.0.0
+pyyaml>=6.0
+tqdm>=4.65.0
+psutil>=5.9.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Development
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.4.0
+
+# Accessibility
+pygame>=2.5.0  # For audio feedback
+playsound>=1.3.0
+
+# Optional: For advanced features
+# whisper>=1.1.0  # For better speech recognition
+# sentencepiece>=0.1.99  # For tokenization
+# accelerate>=0.20.0  # For model acceleration

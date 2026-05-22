@@ -1,0 +1,33 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+
+# VSCode settings
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# AI model files
+*.pt
+*.pth
+*.onnx
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Environment variables
+.env
+
+# OS files
+Thumbs.db
+.DS_Store
+data/

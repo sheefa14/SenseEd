@@ -1,0 +1,14 @@
+User Testing Protocol:
+1. Recruit 10-15 users with various disabilities
+2. Create testing scenarios:
+   - Basic conversation
+   - Document reading
+   - Question answering
+   - Gesture commands
+   - Error situations
+3. Measure:
+   - Task completion rate
+   - Response accuracy
+   - User satisfaction
+   - Response time
+4. Collect feedback through surveys and interviews
